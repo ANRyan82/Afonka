@@ -268,52 +268,71 @@ h1, h2, h3, h4, h5, h6 {
 /* 768px - 992px */
 @media screen and (max-width: 992px) {
 	.container {
-		width: 720px;
-	}
-	.wrapper {
-		flex-direction: column;
-	}
-	.offer {
-		width: 100%;
-	}
-	.intro {
-		width: auto;
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
 	.desktop {
-		display: block;
-	    width: 549px;
-	    margin: 72px auto 0;
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
-	.skills {
-		flex-direction: column;
+	.mail {
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
-	.skill {
-		width: auto;
-		margin-bottom: 30px;
+	.thumb  img{
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
 }
 
 /* 576px - 768px */
 @media screen and (max-width: 768px) {
 	.container {
-		width: 540px;
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
 	.desktop {
-		width: 100%;
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
-	.input {
-		width: 100%;
+	.mail {
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
-	.btn {
-		margin-left: 0;
-	    margin-top: 15px;
-	    width: 100%;
+	.thumb  img{
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
 }
 
 /* 320px - 576px */
 @media screen and (max-width: 576px) {
 	.container {
-		width: 90%;
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.desktop {
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.mail {
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+	.thumb  img{
+		max-width: 100%;
+		height: auto;
+		overflow: hidden;
 	}
 }
